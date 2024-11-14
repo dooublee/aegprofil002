@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Sour Gummy", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.navigation a{
+    font-size: 1.1em;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+}
+.navigation a:hover{
+    color: blueviolet;
+}
+.btn-talk{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: purple;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-talk:hover{
+    color: purple;
+    background-color: white;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('homme.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.content{
+    max-width: 500px;
+    color: #555;
+}
+.content h2{
+    font-size: 3em;
+}
+.content h2 span{
+    color: purple;
+}
+.content h4{
+    font-size: 2em;
+
+}
+.content p{
+    padding: 10px 0 40px 0;
+}
+.btn-group a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: purple;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-group a:hover{
+    color: purple;
+    background: transparent;
+}
+.social-media{
+    position: absolute;
+    bottom: 50px;
+}
+.social-media a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: purple;
+    border-radius: 50%;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid purple;
+    transition: .3s;
+}
+.social-media a i{
+    color: white;
+}
+.social-media a:hover{
+    background: #361ac4;
+}
+footer {
+    font-size: 13px;
+    text-align: left;
+    padding: 3px;
+    color: gray;
+  }
